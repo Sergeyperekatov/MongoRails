@@ -3,8 +3,8 @@ env: flex
 entrypoint: bundle exec rackup --port $PORT
 
 env_variables:
-  SECRET_KEY_BASE: 529c935c7aa230aafafa55d470157d8acca269b4ad963ea741acf9ecfa59cfd5dc
-3ef05afd22061f237ec172edd481f585f9bd0111b959d4bca989e9b3d5ce71
+  SECRET_KEY_BASE: "529c935c7aa230aafafa55d470157d8acca269b4ad963ea741acf9ecfa59cfd5dc
+3ef05afd22061f237ec172edd481f585f9bd0111b959d4bca989e9b3d5ce71"
 
 # This sample incurs costs to run on the App Engine flexible environment.
 # The settings below are to reduce costs during testing and are not appropriate
