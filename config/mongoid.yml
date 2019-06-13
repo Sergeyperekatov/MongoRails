@@ -1,7 +1,6 @@
-production:   
-  sessions:
+development:
+  clients:
     default:
-      uri: <%= ENV['MONGOHQ_URI'] %>
-      options:
-        skip_version_check: true
-        safe: true
+      database: mongoid
+      hosts:
+        - localhost:27017
