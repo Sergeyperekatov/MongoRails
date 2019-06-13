@@ -1,6 +1,6 @@
 runtime: ruby
 env: flex
-entrypoint: bundle exec rails server Puma -p 3000
+entrypoint: bundle exec rackup --port $PORT
 
 env_variables:
   SECRET_KEY_BASE: 529c935c7aa230aafafa55d470157d8acca269b4ad963ea741acf9ecfa59cfd5dc
