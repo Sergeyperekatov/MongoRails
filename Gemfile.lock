@@ -51,6 +51,7 @@ GEM
     bootsnap (1.4.4)
       msgpack (~> 1.0)
     bson (4.5.0)
+    bson_ext (1.5.1)
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.23.0)
@@ -197,6 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
+  bson_ext
   byebug
   capybara (>= 2.15)
   chromedriver-helper
