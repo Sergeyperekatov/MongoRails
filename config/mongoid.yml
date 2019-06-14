@@ -4,3 +4,10 @@ development:
       database: mongoid
       hosts:
         - localhost:27017
+
+production:
+  clients:
+    default:
+      database: mongoid
+      hosts:
+        - localhost:27017
